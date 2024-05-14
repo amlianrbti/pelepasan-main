@@ -1,13 +1,6 @@
-#background {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('assets/images/bg1.png');
-    background-size: cover;
-    position: relative;
-}
-
-.logopesat {
-    width: 35%;
-    height: 35%;
-
+body, html {
+    margin: 0;
+    padding: 0;
 }
 
 .overlay {
@@ -62,6 +55,7 @@ svg {
     height: auto;
 }
 
+
 .animated-text {
     overflow: hidden; 
     white-space: nowrap; 
@@ -94,36 +88,12 @@ svg {
 }
 
 .end {
-    background-image: url(assets/images/bg4.png);
     background-size: cover;
-    background-color: #EEEEEE;
+    background-color: #E3F4F4;
     min-height: 10vh;
-    margin-top: -2rem;
-    padding-top: 4rem;
-    padding-bottom: -5rem;
-}
-
-.caraousel {
-    background-image: url(assets/images/bg5.png);
-    background-size: cover;
-    background-color: #EEEEEE;
-    min-height: 100vh;
-    margin-top: -6rem;
+    margin-top: -5px;
     padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
 }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.fade-in {
-    animation: fadeIn 1s ease-out;
-}
